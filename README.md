@@ -54,5 +54,4 @@ print(f"... {top_track} ... {top_track_val:.2f}")
 - `.idxmax()` / `.max()` — pull the category label and value of the largest group mean directly from the Series, instead of hardcoding numbers
 - **f-strings** (`f"... {var} ..."`) with format specifiers (`{val:.2f}`) — insert variable values into text, rounded to 2 decimal places
 
-## Author
-Siean Ivar B. Corporal, 2ECE-A — ECE 2112, University of Santo Tomas
+
