@@ -54,10 +54,5 @@ print(f"... {top_track} ... {top_track_val:.2f}")
 - `.idxmax()` / `.max()` — pull the category label and value of the largest group mean directly from the Series, instead of hardcoding numbers
 - **f-strings** (`f"... {var} ..."`) with format specifiers (`{val:.2f}`) — insert variable values into text, rounded to 2 decimal places
 
-## Known Issues to Fix Before Submission
-- In Task A and B, `Average` is recomputed from only 2 of the 4 score columns (`['Math','Electronics']` and `['Math','GEAS']`) — inconsistent with Task C's `['Math','Electronics','GEAS','Communication']`, and the dataset already provides an `Average` column per the assignment spec. Recommend removing the recompute lines entirely, or computing `Average` **once**, consistently, near the top of the notebook.
-- In Task B, `VisFemale` and `Visfemale` are both used (capitalization mismatch) — likely a typo that should be unified to one variable name.
-- Task A/B recompute `df['Average']` using a `Communication`/other column combination not listed in the assignment's official column set (`Math`, `GEAS`, `Electronics`) — verify against `df.columns` before submitting.
-
 ## Author
 Siean Ivar B. Corporal, 2ECE-A — ECE 2112, University of Santo Tomas
